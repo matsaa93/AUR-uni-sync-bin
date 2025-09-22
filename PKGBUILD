@@ -29,13 +29,12 @@ provides=("${_pkgname}")
 #options=()
 #install=
 #changelog=
+source_x86_64=(uni-sync-bin.tar.xz::https://github.com/matsaa93/AUR-uni-sync-bin/releases/download/$pkgver/uni-sync-bin.tar.xz)
 validpgpkeys=(A90CF879EC922C4751F26A61258971F7992C02F6)
-source=("LICENSE" "uni-sync" "uni-sync.service" "uni-sync.json")
+source=("LICENSE")
 noextract=()
-sha256sums=('c8fe62ed278d3c8b6e9ab88c9e5b5d8db131a65b2040eb0f6e38e25b8f0fc6c9'
-            '57e8dbf2787383207cf4ca6601ea9c14912950e03c1beda9c9f16df80957227d' 
-            'bb8e21acc5c1b38ca120ac355f4cf326a49e31a9f528eed88a302a9ae0a498ee' 
-            '1e905f9eb8f3132833a438a6df1066ee348280d100b07cced8bbb0f594810269')
+sha256sums=('c8fe62ed278d3c8b6e9ab88c9e5b5d8db131a65b2040eb0f6e38e25b8f0fc6c9')
+sha256sums_x86_64=('a2d6414004a994df2af8a0924db323c1200676a3e00e1ef3b4ba5288fc638e5d')
 validpgpkeys=()
 
 #pkgver() {
